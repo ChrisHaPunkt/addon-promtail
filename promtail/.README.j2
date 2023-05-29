@@ -11,7 +11,7 @@
 [Loki][loki] instance or [Grafana Cloud][grafana-cloud]. It is usually deployed
 to every machine that has applications needed to be monitored.
 
-{% set repository = namespace(url='https%3A//github.com/mdegat01/hassio-addons', slug='39bd2704') %}
+{% set repository = namespace(url='https%3A//github.com/ChrisHaPunkt/hassio-addons', slug='39bd2704') %}
 {% if channel == "edge" %}
 {% set repository.url = repository.url + '-edge' %}
 {% set repository.slug = '7eb274d5' %}
@@ -32,7 +32,7 @@ This repository was created for:
 
 If you are more interested in stable releases of these add-ons:
 
-<https://github.com/mdegat01/hassio-addons>
+<https://github.com/ChrisHaPunkt/hassio-addons>
 
 {% elif channel == "beta" %}
 {% set repository.url = repository.url + '-beta' %}
@@ -52,7 +52,7 @@ This repository was created for:
 
 If you are more interested in stable releases of these add-ons:
 
-<https://github.com/mdegat01/hassio-addons>
+<https://github.com/ChrisHaPunkt/hassio-addons>
 
 {% endif %}
 ## About
@@ -78,7 +78,7 @@ You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
-The original setup of this repository is by [Mike Degatano][mdegat01].
+The original setup of this repository is by [Mike Degatano][ChrisHaPunkt].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -114,18 +114,18 @@ SOFTWARE.
 {% else %}
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 {% endif %}
-[contributors]: https://github.com/mdegat01/addon-promtail/graphs/contributors
+[contributors]: https://github.com/ChrisHaPunkt/addon-promtail/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum-centralcommand]: https://community.home-assistant.io/u/CentralCommand/?u=CentralCommand
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-add-on-promtail/293732?u=CentralCommand
 [grafana-cloud]: https://grafana.com/products/cloud/
 [loki]: https://grafana.com/oss/loki
-[mdegat01]: https://github.com/mdegat01
-[issue]: https://github.com/mdegat01/addon-promtail/issues
-[license]: https://github.com/mdegat01/addon-promtail/blob/main/LICENSE
-[license-shield]: https://img.shields.io/github/license/mdegat01/addon-promtail.svg
+[ChrisHaPunkt]: https://github.com/ChrisHaPunkt
+[issue]: https://github.com/ChrisHaPunkt/addon-promtail/issues
+[license]: https://github.com/ChrisHaPunkt/addon-promtail/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/ChrisHaPunkt/addon-promtail.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [promtail]: https://grafana.com/docs/loki/latest/clients/promtail/
-[releases-shield]: https://img.shields.io/github/release/mdegat01/addon-promtail.svg
-[releases]: https://github.com/mdegat01/addon-promtail/releases
+[releases-shield]: https://img.shields.io/github/release/ChrisHaPunkt/addon-promtail.svg
+[releases]: https://github.com/ChrisHaPunkt/addon-promtail/releases

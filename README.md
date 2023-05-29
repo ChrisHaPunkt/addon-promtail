@@ -46,7 +46,7 @@ You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
-The original setup of this repository is by [Mike Degatano][mdegat01].
+The original setup of this repository is by [Mike Degatano][ChrisHaPunkt].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -79,27 +79,27 @@ SOFTWARE.
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=39bd2704_promtail
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmdegat01%2Fhassio-addons
+[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FChrisHaPunkt%2Fhassio-addons
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/mdegat01/addon-promtail.svg
-[commits]: https://github.com/mdegat01/addon-promtail/commits/main
-[contributors]: https://github.com/mdegat01/addon-promtail/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/ChrisHaPunkt/addon-promtail.svg
+[commits]: https://github.com/ChrisHaPunkt/addon-promtail/commits/main
+[contributors]: https://github.com/ChrisHaPunkt/addon-promtail/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum-centralcommand]: https://community.home-assistant.io/u/CentralCommand/?u=CentralCommand
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-add-on-promtail/293732?u=CentralCommand
 [grafana-cloud]: https://grafana.com/products/cloud/
 [loki]: https://grafana.com/oss/loki
-[mdegat01]: https://github.com/mdegat01
-[github-actions-shield]: https://github.com/mdegat01/addon-promtail/workflows/CI/badge.svg
-[github-actions]: https://github.com/mdegat01/addon-promtail/actions
+[ChrisHaPunkt]: https://github.com/ChrisHaPunkt
+[github-actions-shield]: https://github.com/ChrisHaPunkt/addon-promtail/workflows/CI/badge.svg
+[github-actions]: https://github.com/ChrisHaPunkt/addon-promtail/actions
 [i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[issue]: https://github.com/mdegat01/addon-promtail/issues
-[license-shield]: https://img.shields.io/github/license/mdegat01/addon-promtail.svg
+[issue]: https://github.com/ChrisHaPunkt/addon-promtail/issues
+[license-shield]: https://img.shields.io/github/license/ChrisHaPunkt/addon-promtail.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [promtail]: https://grafana.com/docs/loki/latest/clients/promtail/
-[releases-shield]: https://img.shields.io/github/release/mdegat01/addon-promtail.svg
-[releases]: https://github.com/mdegat01/addon-promtail/releases
+[releases-shield]: https://img.shields.io/github/release/ChrisHaPunkt/addon-promtail.svg
+[releases]: https://github.com/ChrisHaPunkt/addon-promtail/releases

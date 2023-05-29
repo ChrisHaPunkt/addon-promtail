@@ -2,7 +2,7 @@
 
 ## Install
 
-First add the repository to the add-on store (`https://github.com/mdegat01/hassio-addons`):
+First add the repository to the add-on store (`https://github.com/ChrisHaPunkt/hassio-addons`):
 
 [![Open your Home Assistant instance and show the add add-on repository dialog
 with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
@@ -265,7 +265,7 @@ You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
-The original setup of this repository is by [Mike Degatano][mdegat01].
+The original setup of this repository is by [Mike Degatano][ChrisHaPunkt].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -299,29 +299,29 @@ SOFTWARE.
 [add-addon-grafana]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_grafana
 [add-addon-loki]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=39bd2704_loki
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmdegat01%2Fhassio-addons
-[addon-default-config]: https://github.com/mdegat01/addon-promtail/blob/main/promtail/rootfs/etc/promtail/default-scrape-config.yaml
+[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FChrisHaPunkt%2Fhassio-addons
+[addon-default-config]: https://github.com/ChrisHaPunkt/addon-promtail/blob/main/promtail/rootfs/etc/promtail/default-scrape-config.yaml
 [addon-grafana]: https://github.com/hassio-addons/addon-grafana
 [addon-google-drive-backup]: https://github.com/sabeechen/hassio-google-drive-backup
-[addon-loki-doc]: https://github.com/mdegat01/addon-loki/blob/main/loki/DOCS.md#grafana
+[addon-loki-doc]: https://github.com/ChrisHaPunkt/addon-loki/blob/main/loki/DOCS.md#grafana
 [addon-z2m]: https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
 [api]: https://grafana.com/docs/loki/latest/clients/promtail/#api
-[contributors]: https://github.com/mdegat01/addon-promtail/graphs/contributors
+[contributors]: https://github.com/ChrisHaPunkt/addon-promtail/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum-centralcommand]: https://community.home-assistant.io/u/CentralCommand/?u=CentralCommand
 [forum]: https://community.home-assistant.io/t/home-assistant-add-on-promtail/293732?u=CentralCommand
 [grafana]: https://grafana.com/oss/grafana/
 [grafana-cloud]: https://grafana.com/products/cloud/
 [grafana-cloud-docs-promtail]: https://grafana.com/docs/grafana-cloud/quickstart/logs_promtail_linuxnode/
-[issue]: https://github.com/mdegat01/addon-promtail/issues
+[issue]: https://github.com/ChrisHaPunkt/addon-promtail/issues
 [logql]: https://grafana.com/docs/loki/latest/logql/
 [loki-doc]: https://grafana.com/docs/loki/latest/overview/
 [loki-doc-best-practices]: https://grafana.com/docs/loki/latest/best-practices/
 [loki-in-grafana]: https://grafana.com/docs/loki/latest/getting-started/grafana/
-[mdegat01]: https://github.com/mdegat01
+[ChrisHaPunkt]: https://github.com/ChrisHaPunkt
 [promtail-doc-examples]: https://grafana.com/docs/loki/latest/clients/promtail/configuration/#example-static-config
 [promtil-doc-metrics]: https://grafana.com/docs/loki/latest/clients/promtail/configuration/#metrics
 [promtail-doc-scrape-configs]: https://grafana.com/docs/loki/latest/clients/promtail/configuration/#scrape_configs
 [promtail-doc-stages]: https://grafana.com/docs/loki/latest/clients/promtail/stages/
-[releases]: https://github.com/mdegat01/addon-promtail/releases
+[releases]: https://github.com/ChrisHaPunkt/addon-promtail/releases
 [semver]: http://semver.org/spec/v2.0.0

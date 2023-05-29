@@ -1,8 +1,8 @@
 ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64
 ARG BUILD_ARCH=amd64
 
-# https://github.com/mdegat01/promtail-journal/releases
-FROM ghcr.io/mdegat01/promtail-journal/${BUILD_ARCH}:1.6.0 as build_promtail
+# https://github.com/ChrisHaPunkt/promtail-journal/releases
+FROM ghcr.io/ChrisHaPunkt/promtail-journal/${BUILD_ARCH}:1.6.0 as build_promtail
 
 # https://github.com/hassio-addons/addon-debian-base/releases
 # hadolint ignore=DL3006
@@ -55,6 +55,8 @@ ARG BUILD_REF
 ARG BUILD_REPOSITORY
 ARG BUILD_VERSION
 
+ENV SYSTEMD_JOURNAL_COMPACT=0
+
 # Labels
 LABEL \
     io.hass.name="${BUILD_NAME}" \
@@ -62,13 +64,13 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="mdegat01" \
+    maintainer="ChrisHaPunkt" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="mdegat01's Home Assistant Add-ons" \
-    org.opencontainers.image.authors="mdegat01" \
+    org.opencontainers.image.vendor="ChrisHaPunkt's Home Assistant Add-ons" \
+    org.opencontainers.image.authors="ChrisHaPunkt" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://github.com/mdegat01/hassio-addons" \
+    org.opencontainers.image.url="https://github.com/ChrisHaPunkt/hassio-addons" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
