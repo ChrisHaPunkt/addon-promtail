@@ -9,4 +9,4 @@ on:
 
 jobs:
   workflows:
-    uses: ChrisHaPunkt/addon-workflows/.github/workflows/lock.yaml@main
+    uses: ../ci-workflows/lock.yaml

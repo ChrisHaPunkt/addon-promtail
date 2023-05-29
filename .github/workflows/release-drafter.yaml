@@ -9,4 +9,4 @@ on:
 
 jobs:
   workflows:
-    uses: ChrisHaPunkt/addon-workflows/.github/workflows/release-drafter.yaml@main
+    uses: ../ci-workflows/release-drafter.yaml

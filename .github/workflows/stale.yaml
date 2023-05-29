@@ -9,4 +9,4 @@ on:
 
 jobs:
   workflows:
-    uses: ChrisHaPunkt/addon-workflows/.github/workflows/stale.yaml@main
+    uses: ../ci-workflows/stale.yaml

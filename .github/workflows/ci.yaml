@@ -17,4 +17,4 @@ on:
 
 jobs:
   workflows:
-    uses: ChrisHaPunkt/addon-workflows/.github/workflows/addon-ci.yaml@main
+    uses: ../ci-workflows/addon-ci.yaml

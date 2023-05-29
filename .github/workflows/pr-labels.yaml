@@ -12,4 +12,4 @@ on:
 
 jobs:
   workflows:
-    uses: ChrisHaPunkt/addon-workflows/.github/workflows/pr-labels.yaml@main
+    uses: ../ci-workflows/pr-labels.yaml
