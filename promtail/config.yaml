@@ -1,22 +1,21 @@
 ---
 name: Promtail
 url: https://github.com/ChrisHaPunkt/addon-promtail
-version: edge
+version: dev
 slug: promtail
 arch:
   - aarch64
   - amd64
-  - armv7
   - armhf
+  - armv7
+  - i386
 description: Promtail for Home Assistant
-codenotary: codenotary@degatano.com
 init: false
 journald: true
 map:
   - config
   - share
   - ssl
-watchdog: http://[HOST]:[PORT:9080]/ready
 ports:
   9080/tcp:
 ports_description:
